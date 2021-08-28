@@ -9,6 +9,25 @@ button {
 }
 
 
+/* Class ELement */
+.avatar {
+    width: 5%;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.avatar > img {
+    border: solid;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.username {
+    font-weight: 500;
+}
+
+
 
 /* Id Element */
 #login {
