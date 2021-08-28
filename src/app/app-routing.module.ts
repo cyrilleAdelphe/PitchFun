@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { CommunityPageComponent } from './community-page/community-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HomeComponent } from './home/home.component';
 import { ProfilComponent } from './profil/profil.component';
@@ -8,14 +9,24 @@ import { ProfilComponent } from './profil/profil.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent/* ,
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
     children: [
       {
         path: '',
         component: HomePageComponent,
         outlet: 'child'
+      },
+      {
+        path: 'community',
+        component: CommunityPageComponent,
+        outlet: 'child'
       }
-    ] */
+    ]
   },
   {
     path: 'test',

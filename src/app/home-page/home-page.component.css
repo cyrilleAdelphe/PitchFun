@@ -1,0 +1,56 @@
+.post {
+    /* border: solid;  */  
+    /* margin-top: 2rem;  */
+}
+
+.post > div {
+    border: solid #E21515 1px;
+    width: 80%;
+}
+
+.header {
+    margin-top: 1rem;
+}
+
+.avatar {
+    border: solid;
+    width: 65%;
+    border-radius: 100%;
+}
+
+.avatar > img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.username {
+    padding-top: 0.1rem;
+    text-transform: capitalize;
+}
+
+.date {    
+    font-weight: 400;    
+}
+
+.actions > div > small {
+    position: relative;
+    left: 45%;
+}
+
+.actions > div > i {
+    cursor: pointer;
+}
+
+.post-barre {
+    border-top: solid #E21515 1px;
+}
+
+.post-barre > div > small {
+    position: relative;
+    bottom: 5px;
+}
+
+.post-barre > div > i {
+    cursor: pointer;
+}
+

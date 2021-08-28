@@ -1,0 +1,33 @@
+button {
+    border-radius: 0;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.bord {
+    border: solid;
+}
+
+.community {
+    margin-top: 3rem;
+}
+
+
+.community-barre {
+    border: solid 1px #E21515;
+    margin-bottom: 4rem;
+}
+
+.hshtag {
+    position: relative;
+    top: 25px;
+
+}
+
+.hshtag > i {
+    position: relative;
+    top: 5px;
+    left: 3%;
+}
