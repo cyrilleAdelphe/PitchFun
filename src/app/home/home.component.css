@@ -1,0 +1,108 @@
+/* Element direct */
+
+
+/* ID element */
+#InputSearch {
+    width: 90%;
+}
+
+/* Class element */
+.bord {
+    border: solid 1px #E21515;
+}
+
+.square {
+    cursor: pointer;
+}
+
+.square-icon {    
+    background-color: #E21515;
+    width: 54px;
+    height: 40px;
+    padding: 0.2rem;
+}
+
+.square-icon > i {
+    padding-top: 0.2rem;
+    color: black;
+}
+
+.square-icon2 > i {
+    font-size: 35px;
+    padding-top: 0rem;
+    color: black;
+}
+
+
+.square-text > p {
+    font-weight: 700;
+    padding-top: 0.4rem;
+    color: #E21515;
+}
+
+
+.search {
+    box-shadow: 5px 5px 12px 12px rgba(243, 241, 241, 0.87);
+}
+
+.search-btn {    
+    cursor: pointer;
+}
+
+
+.post {
+    /* border: solid;  */  
+    /* margin-top: 2rem;  */
+}
+
+.post > div {
+    border: solid #E21515 1px;
+    width: 80%;
+}
+
+.header {
+    margin-top: 1rem;
+}
+
+.avatar {
+    border: solid;
+    width: 65%;
+    border-radius: 100%;
+}
+
+.avatar > img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.username {
+    padding-top: 0.1rem;
+    text-transform: capitalize;
+}
+
+.date {    
+    font-weight: 400;    
+}
+
+.actions > div > small {
+    position: relative;
+    left: 45%;
+}
+
+.actions > div > i {
+    cursor: pointer;
+}
+
+.post-barre {
+    border-top: solid #E21515 1px;
+}
+
+.post-barre > div > small {
+    position: relative;
+    bottom: 5px;
+}
+
+.post-barre > div > i {
+    cursor: pointer;
+}
+
