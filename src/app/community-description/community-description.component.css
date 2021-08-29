@@ -1,0 +1,100 @@
+button {
+    border-radius: 0;
+}
+
+.bord {
+    border: solid;
+}
+
+.barre {
+    margin-top: 2rem;    
+    width: 70%;
+    background-color:rgba(243, 241, 241, 0.801);
+}
+
+
+div > .col-md-2 > img {
+    border-radius: 10px;
+}
+
+.col-md-5 > p {
+    transform: translateY(30%);
+}
+
+div > .col-md-3 > p {
+    font-weight: 700;
+    transform: translateY(100%);
+}
+
+.thematic {
+    background-color:rgba(243, 241, 241, 0.801);
+    width: 70%;
+}
+
+.thematic > p {
+    transform: translateY(30%);
+    padding-left: 0.5rem;
+}
+
+
+.hshtag {
+    width: 70%;
+}
+
+
+.hshtag-barre {
+    background-color:rgba(243, 241, 241, 0.801);
+    height: 100%;
+    width: 100%;
+}
+
+.hshtag-barre > span {
+    transform: translateY(50%);
+    padding-left: 0.5rem;
+}
+
+
+div > .col-md-4 > button {
+    margin-top: 0.05rem;
+    margin-left: 0.9rem;
+    width: 100%;
+}
+
+
+div > .col-md-4 > button > i {
+    font-size: 16px;
+    margin-left: 0.5rem;
+}
+
+.card-link {
+    text-align: center;
+}
+
+
+.card-barre {
+    width: 74%;
+}
+
+
+.card-text {
+    text-align: center;
+}
+
+.onglet-barre {
+    width: 75%;
+    margin-top: 2rem;
+    background-color:#f8f8f8e1!important;
+
+}
+
+
+.col-md-12 > button {
+    width: 70%;
+    background-color: white;
+    border-color: black;
+}
+
+
+.last {
+    margin-bottom: 11rem;
+}

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { CommunityDescriptionComponent } from './community-description/community-description.component';
 import { CommunityPageComponent } from './community-page/community-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HomeComponent } from './home/home.component';
@@ -40,6 +41,10 @@ const routes: Routes = [
   {
     path: 'list-group',
     component: ListGroupComponent
+  },
+  {
+    path: 'community-description',
+    component: CommunityDescriptionComponent
   }
 ];
 
