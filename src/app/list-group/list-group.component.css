@@ -96,3 +96,7 @@ strong {
 .group-member-detail {
     margin-top: 1rem;
 }
+
+.card {
+    border-radius: 8px;
+}
