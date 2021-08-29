@@ -10,6 +10,7 @@ import { ProfilComponent } from './profil/profil.component';
 import { CommunityPageComponent } from './community-page/community-page.component';
 import { ListGroupComponent } from './list-group/list-group.component';
 import { CommunityDescriptionComponent } from './community-description/community-description.component';
+import { ListChallengesComponent } from './list-challenges/list-challenges.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CommunityDescriptionComponent } from './community-description/community
     ProfilComponent,
     CommunityPageComponent,
     ListGroupComponent,
-    CommunityDescriptionComponent
+    CommunityDescriptionComponent,
+    ListChallengesComponent
   ],
   imports: [
     BrowserModule,

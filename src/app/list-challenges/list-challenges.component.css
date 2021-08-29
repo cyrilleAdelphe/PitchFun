@@ -1,0 +1,20 @@
+button {
+    border-radius: 0;
+}
+
+.bord {
+    border: solid;
+}
+
+.cadre {
+    width: 60%;
+    background-color: rgba(243, 241, 241, 0.801);
+}
+
+.join {
+    width: 60%;
+}
+
+.challenges-barre {
+    background-color: rgba(243, 241, 241, 0.801);
+}
