@@ -1,0 +1,26 @@
+button {
+    border-radius: 0;
+}
+
+.bord {
+    border: solid;
+}
+
+.premium {
+    
+}
+
+.premium > .title {
+    padding: 0.5rem;
+    width: 30%;
+    background-color: rgba(243, 241, 241, 0.801)
+}
+
+.btn-follow {
+    width: 75%;
+}
+
+
+.premium-barre {
+    background-color: rgba(243, 241, 241, 0.801)
+}

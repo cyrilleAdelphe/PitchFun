@@ -11,6 +11,7 @@ import { CommunityPageComponent } from './community-page/community-page.componen
 import { ListGroupComponent } from './list-group/list-group.component';
 import { CommunityDescriptionComponent } from './community-description/community-description.component';
 import { ListChallengesComponent } from './list-challenges/list-challenges.component';
+import { PremiumComponent } from './premium/premium.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ListChallengesComponent } from './list-challenges/list-challenges.compo
     CommunityPageComponent,
     ListGroupComponent,
     CommunityDescriptionComponent,
-    ListChallengesComponent
+    ListChallengesComponent,
+    PremiumComponent
   ],
   imports: [
     BrowserModule,
