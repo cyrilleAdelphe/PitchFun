@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { CommunityPageComponent } from './community-page/community-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HomeComponent } from './home/home.component';
+import { ListGroupComponent } from './list-group/list-group.component';
 import { ProfilComponent } from './profil/profil.component';
 
 const routes: Routes = [
@@ -35,6 +36,10 @@ const routes: Routes = [
   {
     path: 'profil',
     component: ProfilComponent
+  },
+  {
+    path: 'list-group',
+    component: ListGroupComponent
   }
 ];
 

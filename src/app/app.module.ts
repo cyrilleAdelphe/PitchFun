@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProfilComponent } from './profil/profil.component';
 import { CommunityPageComponent } from './community-page/community-page.component';
+import { ListGroupComponent } from './list-group/list-group.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CommunityPageComponent } from './community-page/community-page.componen
     HomeComponent,
     HomePageComponent,
     ProfilComponent,
-    CommunityPageComponent
+    CommunityPageComponent,
+    ListGroupComponent
   ],
   imports: [
     BrowserModule,
