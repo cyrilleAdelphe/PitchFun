@@ -7,6 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HomeComponent } from './home/home.component';
 import { ListChallengesComponent } from './list-challenges/list-challenges.component';
 import { ListGroupComponent } from './list-group/list-group.component';
+import { ListGroup2Component } from './list-group2/list-group2.component';
 import { PremiumComponent } from './premium/premium.component';
 import { ProfilComponent } from './profil/profil.component';
 
@@ -55,6 +56,10 @@ const routes: Routes = [
   {
     path: 'premium',
     component: PremiumComponent
+  },
+  {
+    path: 'list-group2',
+    component: ListGroup2Component
   }
 ];
 
