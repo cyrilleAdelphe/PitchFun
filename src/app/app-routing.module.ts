@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { CommunityDescriptionComponent } from './community-description/community-description.component';
 import { CommunityPageComponent } from './community-page/community-page.component';
+import { FormationComponent } from './formation/formation.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HomeComponent } from './home/home.component';
 import { ListChallengesComponent } from './list-challenges/list-challenges.component';
@@ -60,6 +61,10 @@ const routes: Routes = [
   {
     path: 'list-group2',
     component: ListGroup2Component
+  },
+  {
+    path: 'formation',
+    component: FormationComponent
   }
 ];
 
