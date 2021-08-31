@@ -17,6 +17,8 @@ import { FormationComponent } from './formation/formation.component';
 import { ChallengesCreationComponent } from './challenges-creation/challenges-creation.component';
 import { GroupCreationComponent } from './group-creation/group-creation.component';
 import { PublicationComponent } from './publication/publication.component';
+import { InscriptionComponent } from './inscription/inscription.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { PublicationComponent } from './publication/publication.component';
     FormationComponent,
     ChallengesCreationComponent,
     GroupCreationComponent,
-    PublicationComponent
+    PublicationComponent,
+    InscriptionComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

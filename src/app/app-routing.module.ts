@@ -15,6 +15,9 @@ import { PremiumComponent } from './premium/premium.component';
 import { ProfilComponent } from './profil/profil.component';
 import { PublicationComponent } from './publication/publication.component';
 
+import { InscriptionComponent } from './inscription/inscription.component';
+import { LoginComponent } from './login/login.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -80,6 +83,14 @@ const routes: Routes = [
   {
     path: 'publication',
     component: PublicationComponent
+  },
+  {
+    path: 'register',
+    component: InscriptionComponent,    
+  },
+  {
+    path: 'login',
+    component: LoginComponent
   }
 ];
 
