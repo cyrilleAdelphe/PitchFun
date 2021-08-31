@@ -16,5 +16,8 @@ export class NavbarComponent implements OnInit {
   goToTest() {
     this.router.navigateByUrl('/test');
   }
+  goToInscription(){
+    this.router.navigateByUrl('/home/(child:inscription;open=true)')
+  }
 
 }
