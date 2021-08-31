@@ -14,6 +14,9 @@ import { ListChallengesComponent } from './list-challenges/list-challenges.compo
 import { PremiumComponent } from './premium/premium.component';
 import { ListGroup2Component } from './list-group2/list-group2.component';
 import { FormationComponent } from './formation/formation.component';
+import { ChallengesCreationComponent } from './challenges-creation/challenges-creation.component';
+import { GroupCreationComponent } from './group-creation/group-creation.component';
+import { PublicationComponent } from './publication/publication.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { FormationComponent } from './formation/formation.component';
     ListChallengesComponent,
     PremiumComponent,
     ListGroup2Component,
-    FormationComponent
+    FormationComponent,
+    ChallengesCreationComponent,
+    GroupCreationComponent,
+    PublicationComponent
   ],
   imports: [
     BrowserModule,

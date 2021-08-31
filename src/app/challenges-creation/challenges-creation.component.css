@@ -1,0 +1,89 @@
+button {
+    border-radius: 0;
+}
+
+strong {
+    font-size: 20px;
+}
+
+input, textarea {
+    border-radius: 0;
+}
+
+.bord {
+    border: solid;
+}
+
+.round {
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    background-color: black;
+}
+
+.round > i {
+    position: relative;
+    top: 4px;
+    font-weight: 900;
+    color: white;
+}
+
+.title {
+    width: 15%;
+    background-color:rgba(243, 241, 241, 0.801);
+}
+
+.subtitle {
+    width: 40%;
+}
+
+
+.col-md-4 > h6 {
+    text-align: right;
+    transform: translateY(50%);
+}
+
+.hshtag {
+    width: 70%;
+    text-align: left;
+    background-color:rgba(243, 241, 241, 0.801);    
+}
+
+
+.btn-created {
+    width: 34%;
+    float: right;
+}
+
+
+.challenge {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.challenge > .card {
+    background-color:rgba(243, 241, 241, 0.801);
+}
+
+.challenge > .card > span {
+    font-size: small;
+    text-align: center;
+}
+
+
+.challenge > .card > img {
+    border-radius: 0;
+    height: 20%;
+}
+
+
+.card-footer {
+    font-size: 12px;
+}
+
+
+
+
+.form-group > label {
+    font-weight: 700;
+}

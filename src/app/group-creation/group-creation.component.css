@@ -1,0 +1,46 @@
+button {
+    border-radius: 0;
+}
+
+strong {
+    font-size: 20px;
+}
+
+input, textarea {
+    border-radius: 0;
+}
+
+.bord {
+    border: solid;
+}
+
+.round {
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    background-color: black;
+}
+
+.round > i {
+    position: relative;
+    top: 4px;
+    font-weight: 900;
+    color: white;
+}
+
+.form-group > label {
+    font-weight: 700;
+}
+
+
+.form-group > button {
+    width: 80%;
+}
+
+
+.form-card {
+    background-color:rgba(243, 241, 241, 0.801);
+    border-radius: 20px;
+    width: 80%;
+}
+
