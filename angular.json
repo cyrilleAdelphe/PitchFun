@@ -1,11 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-<<<<<<< HEAD
   "cli": {
-    "analytics": "acbb2f91-3238-4c9c-ae8e-36d8aa74b64e"
+    "analytics": "9330c599-eabf-4dd9-a957-53bd7125ff58"
   },
-=======
->>>>>>> parent of 5f22fdc (register component)
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
