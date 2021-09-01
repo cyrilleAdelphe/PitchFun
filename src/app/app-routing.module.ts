@@ -11,6 +11,7 @@ import { ListGroupComponent } from './list-group/list-group.component';
 import { ListGroup2Component } from './list-group2/list-group2.component';
 import { PremiumComponent } from './premium/premium.component';
 import { ProfilComponent } from './profil/profil.component';
+import { InscriptionComponent } from './inscription/inscription.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,11 @@ const routes: Routes = [
       {
         path: 'community',
         component: CommunityPageComponent,
+        outlet: 'child'
+      },
+      {
+        path: 'inscription',
+        component: InscriptionComponent,
         outlet: 'child'
       }
     ]
