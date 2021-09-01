@@ -14,6 +14,7 @@ import { ListGroup2Component } from './list-group2/list-group2.component';
 import { PremiumComponent } from './premium/premium.component';
 import { ProfilComponent } from './profil/profil.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { PublicationComponent } from './publication/publication.component';
 
 import { InscriptionComponent } from './inscription/inscription.component';
@@ -21,6 +22,8 @@ import { LoginComponent } from './login/login.component';
 =======
 import { InscriptionComponent } from './inscription/inscription.component';
 >>>>>>> parent of aa06313 (new change)
+=======
+>>>>>>> parent of 5f22fdc (register component)
 
 const routes: Routes = [
   {
@@ -40,11 +43,6 @@ const routes: Routes = [
       {
         path: 'community',
         component: CommunityPageComponent,
-        outlet: 'child'
-      },
-      {
-        path: 'inscription',
-        component: InscriptionComponent,
         outlet: 'child'
       }
     ]

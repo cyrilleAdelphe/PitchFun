@@ -15,6 +15,7 @@ import { PremiumComponent } from './premium/premium.component';
 import { ListGroup2Component } from './list-group2/list-group2.component';
 import { FormationComponent } from './formation/formation.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ChallengesCreationComponent } from './challenges-creation/challenges-creation.component';
 import { GroupCreationComponent } from './group-creation/group-creation.component';
 import { PublicationComponent } from './publication/publication.component';
@@ -23,6 +24,8 @@ import { LoginComponent } from './login/login.component';
 =======
 import { InscriptionComponent } from './inscription/inscription.component';
 >>>>>>> parent of aa06313 (new change)
+=======
+>>>>>>> parent of 5f22fdc (register component)
 
 @NgModule({
   declarations: [
@@ -37,6 +40,7 @@ import { InscriptionComponent } from './inscription/inscription.component';
     ListChallengesComponent,
     PremiumComponent,
     ListGroup2Component,
+<<<<<<< HEAD
     FormationComponent,
 <<<<<<< HEAD
     ChallengesCreationComponent,
@@ -47,6 +51,9 @@ import { InscriptionComponent } from './inscription/inscription.component';
 =======
     InscriptionComponent
 >>>>>>> parent of aa06313 (new change)
+=======
+    FormationComponent
+>>>>>>> parent of 5f22fdc (register component)
   ],
   imports: [
     BrowserModule,
