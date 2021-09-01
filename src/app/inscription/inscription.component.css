@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 label {
     font-size: 13px;
 }
@@ -6,6 +7,12 @@ label {
     position: relative;
     text-align: center;
     font-size: 45px;
+=======
+.registery_p{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+>>>>>>> parent of aa06313 (new change)
     font-weight: bold;
 }
 .form-conterner{
@@ -15,7 +22,11 @@ label {
     margin: 0 auto;
     padding: 10px;
     border-radius: 20px;
+<<<<<<< HEAD
     background-color:rgba(243, 241, 241, 0.801);    
+=======
+    background-color: rgb(245, 238, 238);
+>>>>>>> parent of aa06313 (new change)
 }
 
 .social{
@@ -30,6 +41,7 @@ label {
 .submit_btn{
     position: relative;
     float: right;
+<<<<<<< HEAD
     background-color: black;
     color: white;
 }
@@ -57,4 +69,6 @@ label {
 
 .bord {
     border: solid;
+=======
+>>>>>>> parent of aa06313 (new change)
 }

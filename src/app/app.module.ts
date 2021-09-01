@@ -14,11 +14,15 @@ import { ListChallengesComponent } from './list-challenges/list-challenges.compo
 import { PremiumComponent } from './premium/premium.component';
 import { ListGroup2Component } from './list-group2/list-group2.component';
 import { FormationComponent } from './formation/formation.component';
+<<<<<<< HEAD
 import { ChallengesCreationComponent } from './challenges-creation/challenges-creation.component';
 import { GroupCreationComponent } from './group-creation/group-creation.component';
 import { PublicationComponent } from './publication/publication.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { LoginComponent } from './login/login.component';
+=======
+import { InscriptionComponent } from './inscription/inscription.component';
+>>>>>>> parent of aa06313 (new change)
 
 @NgModule({
   declarations: [
@@ -34,11 +38,15 @@ import { LoginComponent } from './login/login.component';
     PremiumComponent,
     ListGroup2Component,
     FormationComponent,
+<<<<<<< HEAD
     ChallengesCreationComponent,
     GroupCreationComponent,
     PublicationComponent,
     InscriptionComponent,
     LoginComponent
+=======
+    InscriptionComponent
+>>>>>>> parent of aa06313 (new change)
   ],
   imports: [
     BrowserModule,
