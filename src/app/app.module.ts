@@ -14,7 +14,6 @@ import { ListChallengesComponent } from './list-challenges/list-challenges.compo
 import { PremiumComponent } from './premium/premium.component';
 import { ListGroup2Component } from './list-group2/list-group2.component';
 import { FormationComponent } from './formation/formation.component';
-import { InscriptionComponent } from './inscription/inscription.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +28,7 @@ import { InscriptionComponent } from './inscription/inscription.component';
     ListChallengesComponent,
     PremiumComponent,
     ListGroup2Component,
-    FormationComponent,
-    InscriptionComponent
+    FormationComponent
   ],
   imports: [
     BrowserModule,
