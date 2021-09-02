@@ -21,3 +21,22 @@
     padding: 0.5rem;
     background-color:rgba(243, 241, 241, 0.801);
 }
+
+#box-main {
+    width: 85%;
+}
+
+#box-formation > .card {
+}
+
+
+@media screen and (max-width: 768px) {
+    #box-main {
+        width: 100%;
+    }
+    
+    #box-formation {
+        margin-bottom: 2rem;
+    }
+}
+

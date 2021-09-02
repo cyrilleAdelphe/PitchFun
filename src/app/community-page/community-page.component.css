@@ -31,3 +31,14 @@ img {
     top: 5px;
     left: 3%;
 }
+
+
+@media screen and (max-width: 768px) {
+    .community-barre > .row > .col-md-3 > img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+}

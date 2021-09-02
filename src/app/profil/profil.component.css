@@ -69,3 +69,23 @@ textarea {
 .avatar > img {
     border-radius: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    #staticEmail {
+        width: 100%;
+        margin-top: 1rem;
+        transform: translateX(-6%);
+    }
+
+    .profil-btn > button {        
+        font-size: medium;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .main-profil {
+        width: 100%;        
+    }
+}

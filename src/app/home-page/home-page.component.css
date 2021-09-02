@@ -54,3 +54,30 @@
     cursor: pointer;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .avatar {
+        width: 20%;
+    }
+
+    .right-icon {
+        transform: translateX(-72%);
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .right-icon {
+        transform: translateX(-55%);
+    }
+
+    #btn-hshtag {        
+        transform: translateX(-4%);        
+    }
+
+    #btn-hshtag > button {
+        font-size: 12px;
+    }
+}

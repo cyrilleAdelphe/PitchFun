@@ -11,7 +11,7 @@
     border: solid 1px #E21515;
 }
 
-.square {
+.square {    
     cursor: pointer;
 }
 
@@ -106,3 +106,28 @@
     cursor: pointer;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .square {          
+        margin-bottom: 1rem;
+        height: 50%;
+     }   
+
+     .square-icon {         
+         transform: translateY(-115%);
+         float: left;
+     }
+
+     .square-icon2 {
+         display: none;
+     }
+}
+
+@media screen and (max-width: 600px) {
+    .square {          
+        margin-bottom: 1rem;
+        height: 50%;
+        width: 85%;
+     }   
+}

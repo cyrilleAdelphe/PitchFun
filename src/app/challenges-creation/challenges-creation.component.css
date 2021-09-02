@@ -87,3 +87,30 @@ input, textarea {
 .form-group > label {
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 768px) { 
+    #title {
+        text-align: left;
+        transform: translateY(-10%);
+        margin-top: 0.5rem;
+    }
+
+    .title  {        
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title  {        
+        width: 50%;
+    }
+
+    .hshtag {
+        width: 85%;
+    }
+
+    #title {
+        width: 150%;
+    }
+}

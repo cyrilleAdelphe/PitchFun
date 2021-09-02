@@ -44,3 +44,15 @@ input, textarea {
 .card > span {
     font-size: small;
 }
+
+#box-pub {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .hshtag {        
+        width: 50%;
+        margin-top: 1rem;
+    }
+}

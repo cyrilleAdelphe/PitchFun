@@ -98,3 +98,30 @@ div > .col-md-4 > button > i {
 .last {
     margin-bottom: 11rem;
 }
+
+#box-box {
+    height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    #join-us-btn {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .card-barre > .row > .col-md-6 {
+        margin-bottom: 3rem;
+        
+    }
+
+    #box-text  {
+        
+        margin-bottom: 11rem;        
+    }
+
+    .onglet-barre {
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+    }
+}

@@ -10,7 +10,7 @@ label {
 }
 .form-conterner{
     border: 1px solid black;
-    width: 950px;
+    width: 70%;
     position: relative;
     margin: 0 auto;
     padding: 10px;
@@ -57,4 +57,19 @@ label {
 
 .bord {
     border: solid;
+}
+
+#fo {
+    padding: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .form-conterner {
+        width: 100%;
+    }
+
+    #fo {
+        padding: 0;
+    }
 }

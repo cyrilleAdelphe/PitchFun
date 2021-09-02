@@ -61,3 +61,29 @@ strong {
 .username {
     font-weight: 700;
 }
+
+#box-member {
+    width: 100%;
+}
+
+#box-member {
+
+}
+
+@media screen and (max-width: 768px) {
+    #title {
+        font-size: 20px;
+    }
+
+    #suspension-btn {
+        float: right;
+    }
+
+    .header-title {
+        width: 30%;
+    }
+
+    button.group-member-detail {
+    }
+
+}

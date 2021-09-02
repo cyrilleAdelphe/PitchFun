@@ -58,3 +58,25 @@ label {
 .bord {
     border: solid;
 }
+
+#box {
+    width: 50%;
+}
+
+#fo {
+    padding: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .form-conterner {
+        width: 100%;
+    }
+
+    #fo {
+        padding: 0;
+    }
+
+    #box {
+        width: 100%;
+    }
+}

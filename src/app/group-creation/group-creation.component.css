@@ -44,3 +44,14 @@ input, textarea {
     width: 80%;
 }
 
+
+@media screen and (max-width: 600px) {
+    .form-card{
+        width: 100%;
+    }
+
+    #btn-group-create {
+        font-size: 10px;
+        width: 100%;
+    }
+}
